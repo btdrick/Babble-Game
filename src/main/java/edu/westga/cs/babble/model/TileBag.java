@@ -1,6 +1,7 @@
 package edu.westga.cs.babble.model;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Random;
 
 /**
  * Container for Tiles, allows drawing random Tiles.  When created, it self-populates with a Scrabble-like set of tiles.

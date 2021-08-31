@@ -1,5 +1,3 @@
-
-
 package edu.westga.cs.babble.controllers;
 
 import java.io.InputStreamReader;
@@ -10,7 +8,7 @@ import pt.tumba.spell.SpellChecker;
 /**
  * Spell checker for words we attempt to make with Babble
  * @author lewisb
- *
+ * @version fall 2021
  */
 public class WordDictionary {
 
@@ -25,9 +23,9 @@ public class WordDictionary {
 			try {
 				Reader reader = new InputStreamReader(WordDictionary.class.getResourceAsStream("/english.txt"));
 				this.checker.initialize(reader);
-			} catch (Exception e) {
+			} catch (Exception exception) {
 				System.err.println("Wrong path to dictionary file");
-				e.printStackTrace();
+				exception.printStackTrace();
 			}
 	}
 	

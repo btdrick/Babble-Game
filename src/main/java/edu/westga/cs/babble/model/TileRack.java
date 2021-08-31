@@ -1,15 +1,13 @@
 package edu.westga.cs.babble.model;
 
-
 /**
  * A small collection of Tiles that holds the currently-drawn set of tiles.
  * @author lewisb
- *
+ * @version fall 2021
  */
 public class TileRack extends TileGroup {
 
 	public static final int MAX_SIZE = 7;
-	
 	
 	/**
 	 * Accessor for the number of tiles we need to fully populate this rack
